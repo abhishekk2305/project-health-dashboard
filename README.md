@@ -1,34 +1,52 @@
-# Project Health Dashboard
+Project Health Dashboard
+Live Demo: https://saa-s-trial-abhishekdhama18.replit.app/
 
-Link: https://saa-s-trial-abhishekdhama18.replit.app/
+An AI-powered SaaS dashboard for real-time tracking of project schedule, budget, and risks—delivering actionable analytics for smarter project management decisions.
 
-This is an AI-powered SaaS dashboard for tracking project schedule, budget, and risk metrics with powerful analytics and actionable insights.
+🚀 Features
+Interactive KPI Cards: Instantly view sprint progress, budget burn, and critical risks.
 
-## Features
+Burndown & Budget Health Charts: Visualize trends and spot issues early.
 
-- Interactive KPI cards
-- Burndown & budget health charts
-- Comprehensive risk register
-- AI-driven insights & action items
-- Data filtering, export to PDF/PNG, and full accessibility
-- Modern, responsive UI
+Comprehensive Risk Register: Assign owners, set statuses, and filter by severity.
 
-## Tech Stack
+AI-Driven Insights & Actions: Get clear, personalized recommendations powered by analytics.
 
-- React (frontend)
-- Express (backend)
-- TypeScript, Node.js, TailwindCSS
+Data Filtering & Export: Select custom time ranges and export views as PDF/PNG for reports.
 
-## Getting Started
+Modern, Responsive UI: Optimized for desktops, tablets, and mobile devices.
 
-1. Clone the repo
-2. See `/docs/Runbook.md` for setup steps
-3. Build and run client/server as instructed
+Enhanced Accessibility: Strong color contrast, keyboard navigation, and screen reader support.
 
-## Documentation
+🛠️ Tech Stack
+Frontend: React, TypeScript, Vite, TailwindCSS
 
-See `/docs` for Vision, Roadmap, Backlog, and Runbook.
+Backend: Express, TypeScript, Node.js
 
----
+Utilities: Chart.js/Recharts, PDF export libs
 
-*Project initiated and managed by Abhishek Dhama.*
+DevOps: GitHub Actions (CI/CD), Replit Ghostwriter
+
+🏁 Getting Started
+bash
+# Clone the repository
+git clone https://github.com/abhishekk2305/project-health-dashboard.git
+
+# Frontend setup
+cd project-health-dashboard/frontend
+npm install
+npm run dev
+
+# Backend setup (in a new terminal tab)
+cd ../backend
+npm install
+npm run dev
+See /docs/Runbook.md for more detailed setup, environment variables, and deployment instructions.
+
+
+
+Project initiated, managed, and documented by Abhishek Dhama. Core architecture, project planning, and deployment strategy designed with a project manager’s perspective in mind.
+
+📝 License
+This project is MIT Licensed – see the LICENSE file for details.
+
